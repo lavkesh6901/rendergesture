@@ -1,0 +1,13 @@
+0 Bad
+1 For
+2 Good
+3 Hello
+4 Help
+5 Like
+6 Me
+7 No
+8 Okay
+9 Thanks
+10 Worry
+11 Yes
+12 You
