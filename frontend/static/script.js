@@ -42,7 +42,9 @@ const gestureMap = {
   '12': { label: 'You', emoji: '👆' }
 };
 
-const DEFAULT_URL = 'http://localhost:5000/predict';
+// Use relative path → works on PC + Mobile (Render domain)
+const DEFAULT_URL = '/predict';
+
 intervalSlider.value = Number(localStorage.getItem('intervalMs') || 1000);
 intervalValue.textContent = `${intervalSlider.value} ms`;
 
@@ -359,4 +361,5 @@ createEmojiDisplay();
 })();
 
 // Speech synthesis voices loaded
+
 window.speechSynthesis.onvoiceschanged = populateVoices;
