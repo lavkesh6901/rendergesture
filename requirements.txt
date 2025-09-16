@@ -3,3 +3,4 @@ gunicorn
 tensorflow
 numpy
 opencv-python
+mediapipe
