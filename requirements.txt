@@ -3,4 +3,4 @@ gunicorn
 tensorflow
 numpy
 opencv-python
-mediapipe
+mediapipe==0.10.14
